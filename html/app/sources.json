@@ -1,0 +1,35 @@
+{
+    "items": [
+      {
+        "name": "VOD",
+        "submenu": [
+          {
+            "url": "http://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8",
+            "name": "Big Buck Bunny"
+          },
+          {
+            "url": "http://multiplatform-f.akamaihd.net/i/multi/april11/hdworld/hdworld_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8",
+            "name": "HD World"
+          },
+          {
+            "url": "http://multiplatform-f.akamaihd.net/i/multi/april11/cctv/cctv_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8",
+            "name": "CCTV"
+          },
+          {
+            "url": "http://multiplatform-f.akamaihd.net/i/multi/april11/sintel/sintel-hd_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8",
+            "name": "Sintel"
+          }
+        ]
+      },
+      {
+        "name": "LIVE ",
+        "submenu": [
+          {
+            "url": "https://msl4ltctechprvw-i.akamaihd.net/hls/live/263196/ltc-tp-out/master.m3u8",
+            "name": "(MSL) Live Transcoded Stream "
+          }
+        ]
+      }
+    ]
+  }
+  

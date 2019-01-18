@@ -5,7 +5,9 @@ services:
     build: .
     ports:
       - 1935:1935
-      - 8080:80
-      - 8443:443
+      - 80:80
+      - 443:443
     volumes:
-      - ./certs:/opt/certs
+      - ./html:/opt/nginx/html
+      - ./nginx.conf:/opt/nginx/nginx.conf
+    #  - ./certs:/opt/certs
